@@ -84,15 +84,15 @@
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.seller.gigs.options.steps.overview', ['gig' => $gig])->html();
-} elseif ($_instance->childHasBeenRendered('I3bvO5J')) {
-    $componentId = $_instance->getRenderedChildComponentId('I3bvO5J');
-    $componentTag = $_instance->getRenderedChildComponentTagName('I3bvO5J');
+} elseif ($_instance->childHasBeenRendered('l697830197-0')) {
+    $componentId = $_instance->getRenderedChildComponentId('l697830197-0');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l697830197-0');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('I3bvO5J');
+    $_instance->preserveRenderedChild('l697830197-0');
 } else {
     $response = \Livewire\Livewire::mount('main.seller.gigs.options.steps.overview', ['gig' => $gig]);
     $html = $response->html();
-    $_instance->logRenderedChild('I3bvO5J', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l697830197-0', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -103,15 +103,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.seller.gigs.options.steps.pricing', ['gig' => $gig])->html();
-} elseif ($_instance->childHasBeenRendered('DKoyJJq')) {
-    $componentId = $_instance->getRenderedChildComponentId('DKoyJJq');
-    $componentTag = $_instance->getRenderedChildComponentTagName('DKoyJJq');
+} elseif ($_instance->childHasBeenRendered('l697830197-1')) {
+    $componentId = $_instance->getRenderedChildComponentId('l697830197-1');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l697830197-1');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('DKoyJJq');
+    $_instance->preserveRenderedChild('l697830197-1');
 } else {
     $response = \Livewire\Livewire::mount('main.seller.gigs.options.steps.pricing', ['gig' => $gig]);
     $html = $response->html();
-    $_instance->logRenderedChild('DKoyJJq', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l697830197-1', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -122,15 +122,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.seller.gigs.options.steps.requirements', ['gig' => $gig])->html();
-} elseif ($_instance->childHasBeenRendered('MQbmeym')) {
-    $componentId = $_instance->getRenderedChildComponentId('MQbmeym');
-    $componentTag = $_instance->getRenderedChildComponentTagName('MQbmeym');
+} elseif ($_instance->childHasBeenRendered('l697830197-2')) {
+    $componentId = $_instance->getRenderedChildComponentId('l697830197-2');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l697830197-2');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('MQbmeym');
+    $_instance->preserveRenderedChild('l697830197-2');
 } else {
     $response = \Livewire\Livewire::mount('main.seller.gigs.options.steps.requirements', ['gig' => $gig]);
     $html = $response->html();
-    $_instance->logRenderedChild('MQbmeym', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l697830197-2', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -141,15 +141,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.seller.gigs.options.steps.gallery', ['gig' => $gig])->html();
-} elseif ($_instance->childHasBeenRendered('nvLmL7b')) {
-    $componentId = $_instance->getRenderedChildComponentId('nvLmL7b');
-    $componentTag = $_instance->getRenderedChildComponentTagName('nvLmL7b');
+} elseif ($_instance->childHasBeenRendered('l697830197-3')) {
+    $componentId = $_instance->getRenderedChildComponentId('l697830197-3');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l697830197-3');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('nvLmL7b');
+    $_instance->preserveRenderedChild('l697830197-3');
 } else {
     $response = \Livewire\Livewire::mount('main.seller.gigs.options.steps.gallery', ['gig' => $gig]);
     $html = $response->html();
-    $_instance->logRenderedChild('nvLmL7b', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l697830197-3', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>

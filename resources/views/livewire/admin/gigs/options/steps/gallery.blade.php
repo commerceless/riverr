@@ -292,7 +292,7 @@
 
             {{-- Vimeo Video --}}
             @if ($vimeo_video_link)
-                <div class="bg-white rounded-lg shadow-sm border border-gray-100 px-8 py-6 dark:bg-zinc-800 dark:border-zinc-700" wire:key="section_video">
+                <div class="bg-white rounded-lg shadow-sm border border-gray-100 px-8 py-6 dark:bg-zinc-800 dark:border-zinc-700" wire:key="sections_video">
 
                     {{-- Section title --}}
                     <div class="mb-14 flex items-center justify-between">

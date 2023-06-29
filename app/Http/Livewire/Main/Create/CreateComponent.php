@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Livewire\Main\Create;
-
+use Illuminate\Http\Request;
 use App\Models\Gig;
 use App\Models\Admin;
 use App\Models\GigFaq;
@@ -319,13 +319,52 @@ class CreateComponent extends Component
             // Upload large image
             $image_large_id       = ImageUploader::make($preview)->resize(1200)->folder('gigs/previews/large')->handle();
 
+
+            // Optimized gig description using openai api
+      
+            $api_url       = "https://api.openai.com/v1/completions";
+            $body          = [
+                                "model"             => 'text-davinci-003',
+                                "prompt"            => 'please optimized this text'.$this->description,
+                                "temperature"       => 0.75,
+                                "max_tokens"        => 1800,
+                                "top_p"             => 1,
+                                "frequency_penalty" => 0,
+                                "presence_penalty"  => 0
+                            ];
+
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+              CURLOPT_URL => $api_url,
+              CURLOPT_RETURNTRANSFER => true,
+              CURLOPT_ENCODING => '',
+              CURLOPT_MAXREDIRS => 10,
+              CURLOPT_TIMEOUT => 0,
+              CURLOPT_FOLLOWLOCATION => true,
+              CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+              CURLOPT_CUSTOMREQUEST => 'POST',
+              CURLOPT_POSTFIELDS =>json_encode($body),
+              CURLOPT_HTTPHEADER => array(
+                'Authorization: Bearer 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',
+                'Content-Type: application/json'
+              ),
+            ));
+
+            $response = curl_exec($curl);
+
+            curl_close($curl);
+            $data = json_decode($response);
+            $new_description = $data->choices[0]->text;
+
+
+
             // Save gig
             $gig                  = new Gig();
             $gig->uid             = $uid;
             $gig->user_id         = auth()->id();
             $gig->title           = $title;
             $gig->slug            = $slug;
-            $gig->description     = $description;
+            $gig->description     = $new_description ? $new_description : $description;
             $gig->price           = $price;
             $gig->delivery_time   = $delivery_time;
             $gig->category_id     = $category_id;

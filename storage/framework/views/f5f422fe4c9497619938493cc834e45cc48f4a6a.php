@@ -66,15 +66,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.create.steps.overview')->html();
-} elseif ($_instance->childHasBeenRendered('thcdKU4')) {
-    $componentId = $_instance->getRenderedChildComponentId('thcdKU4');
-    $componentTag = $_instance->getRenderedChildComponentTagName('thcdKU4');
+} elseif ($_instance->childHasBeenRendered('l1689133777-1')) {
+    $componentId = $_instance->getRenderedChildComponentId('l1689133777-1');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l1689133777-1');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('thcdKU4');
+    $_instance->preserveRenderedChild('l1689133777-1');
 } else {
     $response = \Livewire\Livewire::mount('main.create.steps.overview');
     $html = $response->html();
-    $_instance->logRenderedChild('thcdKU4', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l1689133777-1', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -85,15 +85,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.create.steps.pricing')->html();
-} elseif ($_instance->childHasBeenRendered('P7de0rp')) {
-    $componentId = $_instance->getRenderedChildComponentId('P7de0rp');
-    $componentTag = $_instance->getRenderedChildComponentTagName('P7de0rp');
+} elseif ($_instance->childHasBeenRendered('l1689133777-2')) {
+    $componentId = $_instance->getRenderedChildComponentId('l1689133777-2');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l1689133777-2');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('P7de0rp');
+    $_instance->preserveRenderedChild('l1689133777-2');
 } else {
     $response = \Livewire\Livewire::mount('main.create.steps.pricing');
     $html = $response->html();
-    $_instance->logRenderedChild('P7de0rp', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l1689133777-2', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -104,15 +104,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.create.steps.requirements')->html();
-} elseif ($_instance->childHasBeenRendered('TXpEvWg')) {
-    $componentId = $_instance->getRenderedChildComponentId('TXpEvWg');
-    $componentTag = $_instance->getRenderedChildComponentTagName('TXpEvWg');
+} elseif ($_instance->childHasBeenRendered('l1689133777-3')) {
+    $componentId = $_instance->getRenderedChildComponentId('l1689133777-3');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l1689133777-3');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('TXpEvWg');
+    $_instance->preserveRenderedChild('l1689133777-3');
 } else {
     $response = \Livewire\Livewire::mount('main.create.steps.requirements');
     $html = $response->html();
-    $_instance->logRenderedChild('TXpEvWg', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l1689133777-3', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -123,15 +123,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('main.create.steps.gallery')->html();
-} elseif ($_instance->childHasBeenRendered('iP8u702')) {
-    $componentId = $_instance->getRenderedChildComponentId('iP8u702');
-    $componentTag = $_instance->getRenderedChildComponentTagName('iP8u702');
+} elseif ($_instance->childHasBeenRendered('l1689133777-4')) {
+    $componentId = $_instance->getRenderedChildComponentId('l1689133777-4');
+    $componentTag = $_instance->getRenderedChildComponentTagName('l1689133777-4');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('iP8u702');
+    $_instance->preserveRenderedChild('l1689133777-4');
 } else {
     $response = \Livewire\Livewire::mount('main.create.steps.gallery');
     $html = $response->html();
-    $_instance->logRenderedChild('iP8u702', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('l1689133777-4', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>

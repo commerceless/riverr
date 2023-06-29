@@ -1,1 +1,0 @@
-<script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript"></script><?php /**PATH /var/www/html/riverr/vendor/cloudinary-labs/cloudinary-laravel/resources/views/js.blade.php ENDPATH**/ ?>
