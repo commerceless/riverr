@@ -16,7 +16,7 @@
     <input type="file" name="<?php echo e($id); ?>" id="<?php echo e($id); ?>" accept="<?php echo e($accept); ?>" multiple>
 </div>
 
-<?php if (! $__env->hasRenderedOnce('33ebade1-e8a0-4647-a8ee-3c0542ca9f7e')): $__env->markAsRenderedOnce('33ebade1-e8a0-4647-a8ee-3c0542ca9f7e');
+<?php if (! $__env->hasRenderedOnce('6a754b07-48ed-4458-a885-5da63160cc89')): $__env->markAsRenderedOnce('6a754b07-48ed-4458-a885-5da63160cc89');
 $__env->startPush('scripts'); ?>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -25,7 +25,7 @@ $__env->startPush('scripts'); ?>
     <script defer src="<?php echo e(url('public/js/plugins/uploader/js/jquery.fileuploader.min.js')); ?>" type="text/javascript"></script>
 <?php $__env->stopPush(); endif; ?>
 
-<?php if (! $__env->hasRenderedOnce('bf40ba6b-082e-408e-9c7f-a91e4d6a86a0')): $__env->markAsRenderedOnce('bf40ba6b-082e-408e-9c7f-a91e4d6a86a0');
+<?php if (! $__env->hasRenderedOnce('8474fed2-fd83-4c25-9178-209c22d8b727')): $__env->markAsRenderedOnce('8474fed2-fd83-4c25-9178-209c22d8b727');
 $__env->startPush('styles'); ?>
     
     <link href="<?php echo e(url('public/js/plugins/uploader/font/font-fileuploader.css')); ?>" rel="stylesheet">
